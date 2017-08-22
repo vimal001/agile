@@ -6,10 +6,7 @@ class FaceDetector:
     self.faceClassifier = None
     self.mirror = False
     self.video = None
-    self.scaleFactor = 2.0
-    self.minNeighbors = 5
-    self.minWidth = 80
-    self.minHeight = 80
+
 
   def initialize(self, configs):
     # Classifier
